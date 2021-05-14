@@ -5,6 +5,5 @@ difficulty: str = ""
 guesses: int = 0
 
 number, difficulty, guesses = guessing_game.start(number, difficulty, guesses)
-print(number)
 
 guessing_game.run_game(guesses, number)
